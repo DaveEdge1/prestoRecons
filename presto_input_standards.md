@@ -2,16 +2,17 @@
 
 ## Paramaters
 
-### File format
-yaml (.yml)  
-comments in document will be preserved, but not visible to GUI form users
+### File
+yaml (.yml) format  
+if you are unfamiliar with yaml, see the official documentation here: [yaml](https://yaml.org/)  
+comments in document will be preserved, but not visible to GUI form users  
 
-see a complete example of the yaml input file here: [Holocene_DA_parameters.yml](https://github.com/DaveEdge1/prestoServer/blob/1e8b9bb4e6b3498fbb10154257c5c10fdb14e7c7/Holocene_DA_parameters.yml)
+see a complete example of the yaml input file here: [Holocene_DA_parameters.yml](https://github.com/DaveEdge1/prestoServer/blob/1e8b9bb4e6b3498fbb10154257c5c10fdb14e7c7/Holocene_DA_parameters.yml)  
 
-see the corresponding GUI form here: [Customize Holocene DA Parameters](http://68.183.108.187:85/holocene_da/username/dce725/domainname/gmail.com/configloc/manual)
+see the corresponding GUI form here: [Customize Holocene DA Parameters](http://68.183.108.187:85/holocene_da/username/dce725/domainname/gmail.com/configloc/manual)  
 
 ### Parameter keys
-Paramter keys follow a naming convention of underscore-separated lowercase terms with the first word being a grouping term and the second word being a specific, unique term as in: group_specific  
+Paramter keys follow a naming convention of underscore-separated, lowercase terms with the first word being a grouping term and the second word being a specific, unique term as in: group_specific  
 grouping terms come from a controlled set and include: recon, time, prior, proxy, geo, model, uncertainty  
 verbose specific terms such as "range_to_reconstruct" are allowed and take the form: time_range_to_reconstruct  
 
@@ -49,7 +50,7 @@ free-form:
 &nbsp;&nbsp;special note: this data type dhould be used only as a last resort  
 &nbsp;&nbsp;additonal requirement: none  
 &nbsp;&nbsp;form element: text box  
-&nbsp;&nbsp;example: experiment name
+&nbsp;&nbsp;example: experiment name  
 &nbsp;&nbsp;&nbsp;&nbsp;default: default
   
 boolean:  
@@ -61,16 +62,16 @@ boolean:
 character:  
 &nbsp;&nbsp;additional requirements: options  
 &nbsp;&nbsp;form element: radio buttons allow user to select one from a list of options  
-&nbsp;&nbsp;example: reconstruction in absolute or relative values 
+&nbsp;&nbsp;example: reconstruction in absolute or relative values  
 &nbsp;&nbsp;&nbsp;&nbsp;default: relative  
 &nbsp;&nbsp;&nbsp;&nbsp;options: [relative, absolute]  
   
 list:  
 &nbsp;&nbsp;additional requirements: options  
 &nbsp;&nbsp;form element: check boxes allow user to select multiple from a list of options  
-&nbsp;&nbsp;example: models used for prior   
-&nbsp;&nbsp;&nbsp;&nbsp;default: ['hadcm3_regrid','trace_regrid']  
-&nbsp;&nbsp;&nbsp;&nbsp;options: ['hadcm3_regrid','trace_regrid','famous_regrid']  
+&nbsp;&nbsp;example: models used for prior  
+&nbsp;&nbsp;&nbsp;&nbsp;default: [hadcm3_regrid,trace_regrid]  
+&nbsp;&nbsp;&nbsp;&nbsp;options: [hadcm3_regrid,trace_regrid,famous_regrid]  
   
 numeric:  
 &nbsp;&nbsp;additional requirements: limits, precision  
@@ -83,7 +84,7 @@ numeric:
 range:  
 &nbsp;&nbsp;additional requirements: limits, precision  
 &nbsp;&nbsp;form element: dual range slider and linked numeric input boxes (min/max)  
-&nbsp;&nbsp;example: minimum resolution of proxies
+&nbsp;&nbsp;example: minimum resolution of proxies  
 &nbsp;&nbsp;&nbsp;&nbsp;default: [3000,5000]  
 &nbsp;&nbsp;&nbsp;&nbsp;limits:  [0,12000]  
 &nbsp;&nbsp;&nbsp;&nbsp;precision: 1  
@@ -91,7 +92,7 @@ range:
 lat-lon:  
 &nbsp;&nbsp;special note: this data type can only be used once for a given reconstruction  
 &nbsp;&nbsp;additional requirements: limits, precision  
-&nbsp;&nbsp;form element: world map with adjustable selection box and corresponging numeric inputs for lat/lon min and max
+&nbsp;&nbsp;form element: world map with adjustable selection box and corresponging numeric inputs for lat/lon min and max  
 &nbsp;&nbsp;example: coordinate bounds for assimilating proxies  
 &nbsp;&nbsp;&nbsp;&nbsp;default: [-90, 90, -180, 180]  
 &nbsp;&nbsp;&nbsp;&nbsp;limits:  [-90, 90, -180, 180]  
