@@ -46,6 +46,7 @@ values required by all data types denoted by **bold typescript**
 The data type controls the strucure of the form element in the "Reconstruction Parameters" GUI, which is automatically generated from the yaml file. For instance, a "numeric" data type is given a range-slider form element.  
   
 free-form:  
+&nbsp;&nbsp;special note: this data type dhould be used only as a last resort  
 &nbsp;&nbsp;additonal requirement: none  
 &nbsp;&nbsp;form element: text box  
 &nbsp;&nbsp;example: experiment name
@@ -88,8 +89,9 @@ range:
 &nbsp;&nbsp;&nbsp;&nbsp;precision: 1  
   
 lat-lon:  
+&nbsp;&nbsp;special note: this data type can only be used once for a given reconstruction  
 &nbsp;&nbsp;additional requirements: limits, precision  
-&nbsp;&nbsp;form element: dual range slider and linked numeric input boxes (min/max)  
+&nbsp;&nbsp;form element: world map with adjustable selection box and corresponging numeric inputs for lat/lon min and max
 &nbsp;&nbsp;example: coordinate bounds for assimilating proxies  
 &nbsp;&nbsp;&nbsp;&nbsp;default: [-90, 90, -180, 180]  
 &nbsp;&nbsp;&nbsp;&nbsp;limits:  [-90, 90, -180, 180]  
