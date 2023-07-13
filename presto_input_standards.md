@@ -10,8 +10,6 @@ see a complete example of the yaml input file here: [Holocene_DA_parameters.yml]
 
 see the corresponding GUI form here: [Customize Holocene DA Parameters](http://68.183.108.187:85/holocene_da/username/dce725/domainname/gmail.com/configloc/manual)
 
-<a href="http://68.183.108.187:85/holocene_da/username/dce725/domainname/gmail.com/configloc/manual" target="_blank" rel="noopener">Customize Holocene DA Parameters</a>
-
 ### Parameter keys
 Paramter keys follow a naming convention of underscore-separated lowercase terms with the first word being a grouping term and the second word being a specific, unique term as in: group_specific  
 grouping terms come from a controlled set and include: recon, time, prior, proxy, geo, model, uncertainty  
