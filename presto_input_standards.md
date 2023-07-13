@@ -6,7 +6,9 @@
 yaml (.yml)  
 comments in document will be preserved, but not visible to GUI form users
 
-see a complete example here: [Holocene_DA_parameters.yml](https://github.com/DaveEdge1/prestoServer/blob/1e8b9bb4e6b3498fbb10154257c5c10fdb14e7c7/Holocene_DA_parameters.yml)
+see a complete example of the yaml input file here: [Holocene_DA_parameters.yml](https://github.com/DaveEdge1/prestoServer/blob/1e8b9bb4e6b3498fbb10154257c5c10fdb14e7c7/Holocene_DA_parameters.yml)
+
+see the corresponding GUI form here: [Customize Holocene DA Parameters](http://68.183.108.187:85/holocene_da/username/dce725/domainname/gmail.com/configloc/manual)
 
 ### Parameter keys
 Paramter keys follow a naming convention of underscore-separated lowercase terms with the first word being a grouping term and the second word being a specific, unique term as in: group_specific  
