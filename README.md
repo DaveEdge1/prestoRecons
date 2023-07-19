@@ -7,7 +7,7 @@ all parameters for your reconstruction will need to be applied by a single yaml 
 
 the yaml file will need to conform to the standards outlined in presto_input_standards.md
 
-a completed examples can be found in the holocene_da or temp12kComposites folders as configs.yml
+completed examples can be found in the holocene_da or temp12kComposites folders as configs.yml
 
 ## Step 2 - Formatting your outputs
 need to complete this section
