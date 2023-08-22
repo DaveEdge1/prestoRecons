@@ -1,0 +1,51 @@
+{
+    "description": "<p>This is the first public release of the PReSto framework</p>", 
+    "license": "other-open", 
+    "title": "The Paleoclimate Reconstruction Storehouse (PReSto) platform", 
+    "version": "alpha-release", 
+    "upload_type": "software", 
+    "publication_date": "2023-08-22", 
+    "creators": [
+        {
+            "affiliation": "Northern Arizona University", 
+            "name": "Dave Edge"
+        },
+        {
+            "affiliation": "Northern Arizona University", 
+            "name": "Michael Erb"
+        },
+        {
+            "affiliation": "Northern Arizona University", 
+            "name": "Nicholas McKay"
+        },
+        {
+            "affiliation": "National Center for Atmospheric Research", 
+            "name": "Feng Zhu"
+        },
+        {
+            "affiliation": "University of Southern California", 
+            "name": "Deborah Khider"
+        },
+        {
+            "affiliation": "University of Southern California", 
+            "name": "Julien Emile-Geay"
+        },
+        {
+            "affiliation": "Northern Arizona University", 
+            "name": "Cody Routson"
+        }
+    ], 
+    "access_right": "open", 
+    "related_identifiers": [
+        {
+            "scheme": "url", 
+            "identifier": "https://github.com/paleopresto/prestoRecons/tree/alpha-release", 
+            "relation": "isSupplementTo"
+        }, 
+        {
+            "scheme": "doi", 
+            "identifier": "10.5281/zenodo.8274755", 
+            "relation": "isVersionOf"
+        }
+    ]
+}
