@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/665741281.svg)](https://zenodo.org/badge/latestdoi/665741281)
+
+
 # Guide for contributors
 
 This repo is intended to serve PReSto contributors. The parameter input standards for presto reconstructions (presto_input_standards) and an example (Holocene_DA_parameters.yml) live here. There are also containerization instructions (containerization_instructions.md) and you will find links to the repositories for two example reconstructions, including Dockerfiles.
@@ -22,3 +25,7 @@ containerizing you code with Docker removes any concern of changing dependencies
 *   see an example in Python here:
 * test your new container by building and running it locally
 * after debugging, push this directory to GitHub  
+
+If you use PReSto, please cite it as:
+
+Dave Edge, Michael Erb, Nicholas McKay, Feng Zhu, Deborah Khider, Julien Emile-Geay, & Cody Routson. (2023). The Paleoclimate Reconstruction Storehouse (PReSto) platform (alpha-release). Zenodo. https://doi.org/10.5281/zenodo.8274756
