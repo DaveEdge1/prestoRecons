@@ -35,7 +35,7 @@ values required by all data types denoted by **bold typescript**
 * **value**: the parameter input, to be adjusted as desired  
 * **default**: the default parameter input, does not change  
 * limits: upper and lower bounds (inclusive) for value key, required for numeric, lat-lon, and range data_type, eg. [0,12000]  
-* options: list of valid choices for value key, required for character and list data types, eg. [linear_global, linear_spatial]  
+* options: list of valid choices for value key, required for character and list data types, eg. [linear_global, linear_spatial]. Also used for lat-lon to describe the units of longitude.  
 * precision: minimum possible increment between valid options for value key, required for numeric, lat-lon and range data types, eg. 0.1  
 * **long_name**: displayed parameter name for GUI, eg. time interval for reconstruction  
 * **description**: notes for the user, eg. define a start and end year in units years BP  
@@ -91,12 +91,13 @@ range:
   
 lat-lon:  
 &nbsp;&nbsp;special note: this data type can only be used once for a given reconstruction  
-&nbsp;&nbsp;additional requirements: limits, precision  
+&nbsp;&nbsp;additional requirements: limits, precision, options  
 &nbsp;&nbsp;form element: world map with adjustable selection box and corresponging numeric inputs for lat/lon min and max  
 &nbsp;&nbsp;example: coordinate bounds for assimilating proxies  
 &nbsp;&nbsp;&nbsp;&nbsp;default: [-90, 90, -180, 180]  
 &nbsp;&nbsp;&nbsp;&nbsp;limits:  [-90, 90, -180, 180]  
 &nbsp;&nbsp;&nbsp;&nbsp;precision: 0.001  
+&nbsp;&nbsp;&nbsp;&nbsp;options: [double, 180]  
 
 ### Parameter complexity
 Parameter complextity has three options: standard, advanced, experimental.
