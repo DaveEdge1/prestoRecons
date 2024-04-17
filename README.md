@@ -21,10 +21,10 @@ containerizing you code with Docker removes any concern of changing dependencies
 * if you do not have Docker on your local machine, you will first need to download and install it: [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 * gather all files necessary for your reconstruction in one place (remember, data should be pulled from a repository when the container is run, so it will not be included here)
 * write a Dockerfile
-*   see an example in R here:
-*   see an example in Python here:
+*   see an example in R [here](https://github.com/DaveEdge1/temp12k-regional-composites/blob/main/Dockerfile)
+*   see an example in Python [here](https://github.com/DaveEdge1/holocene_da/blob/master/Dockerfile)
 * test your new container by building and running it locally
-* after debugging, push this directory to GitHub  
+* after debugging, push this directory to GitHub ([example](https://github.com/DaveEdge1/temp12k-regional-composites))
 
 If you use PReSto, please cite it as:
 
