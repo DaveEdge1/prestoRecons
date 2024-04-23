@@ -84,8 +84,8 @@ numeric:
 range:  
 &nbsp;&nbsp;additional requirements: limits, precision  
 &nbsp;&nbsp;form element: dual range slider and linked numeric input boxes (min/max)  
-&nbsp;&nbsp;example: minimum resolution of proxies  
-&nbsp;&nbsp;&nbsp;&nbsp;default: [3000,5000]  
+&nbsp;&nbsp;example: time interval for reconstruction
+&nbsp;&nbsp;&nbsp;&nbsp;default: [0,12000]  
 &nbsp;&nbsp;&nbsp;&nbsp;limits:  [0,12000]  
 &nbsp;&nbsp;&nbsp;&nbsp;precision: 1  
   
