@@ -20,7 +20,8 @@ verbose specific terms such as "range_to_reconstruct" are allowed and take the f
 * recon: parameters relating to the reconstruction broadly, eg. the climate variable to reconstruct  
 * time: parameters relating to time, eg. temporal resolution and interval for reconstruction  
 * prior: parameters relating to Bayesian priors, eg. percentage of the prior states to assimilate  
-* proxy: parameters relating to proxies, eg. seasonality of proxies to assimilate  
+* proxy: parameters relating to proxies, eg. seasonality of proxies to assimilate
+* psm: parameters relating to proxy system models, eg. the calibration period for the PSMs  
 * geo: parameters relating to geospatial, eg. coordinate bounds of proxy records to gather  
 * model: paramters relating to climate models, eg. choice of linear_global or linear_spatial processing  
 * uncertainty: paramters relating to error and confidence intervals, eg. choice of confidence interval width  
